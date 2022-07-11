@@ -12,16 +12,15 @@ import lombok.ToString;
 @ToString
 public class MemberDto {
 
-    private String name;
-    private String email;
-    private String organization;
-
+  private String name;
+  private String email;
+  private String organization;
 
 //    public String getName(){
 //        return name;
 //    }
 //
-//    public void setName(String name){
+//    public void setName(String name){0
 //        this.name = name;
 //    }
 //
@@ -40,12 +39,12 @@ public class MemberDto {
 //        this.organization = organization;
 //    }
 //
-//    @Override
-//    public String toString(){
-//        return "MemberDto{" + "name='" + name+'\''+", " +
-//                "email ='"+email + '\'' +
-//                ",organization'" + organization +'\'' +'}';
-//    }
+    @Override
+    public String toString(){
+        return "MemberDto{" + "name='" + name+'\''+", " +
+                "email ='"+email + '\'' +
+                ",organization'" + organization +'\'' +'}';
+    }
 
 
 }
